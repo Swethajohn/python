@@ -1,86 +1,109 @@
-# ques reverse string 
+# ques lists of strings
 
-# str = input("Enter a string: ")
-# reversed_string = ""
-# i = len(str) - 1
-
-# while i>= 0:
-#     reversed_string += str[i]
-#     i-= 1
-
-# print("Reversed string:", reversed_string)
-
-
-# ques the sum of a list of integers 
-
-# list = input("Enter a list of integers separated by spaces: ").split()
-# total=0
-# i = 0
-
-# while i < len(list):
-#     total += int(list[i])
-#     i=i+1
-
-# print("Sum of integers:", total)
-
-
-# ques 
-
-# list = input("Enter a list of integers separated by spaces: ").split()
-# largest, i = int(list[0]), 1
-
-# while i < len(list):
-#     largest = max(largest, int(list[i]))
-#     i=i+1
-
-# print("Largest integer in the list:", largest)
-
-
-
-# ques 
-
-# str = input("Enter a string: ")
-# word_count=0
-# i= 0
-
-# while i < len(str):
-#     while i < len(str) and str[i].isspace():
-#         i= i+1
-
-#     if i < len(str):
-#         word_count=word_count+1
-
-#     while i< len(str) and not str[i].isspace():
-#         i=i+1
-# print("Number of words in the string:", word_count)
-
-
-#ques
-
-
-# list = input("Enter a list of strings separated by spaces: ").split()
-# new_list = []
-# i= 0
-
-# while i < len(list):
-#     if len(list[i]) > 5:
-#         new_list.append(list[i])
-#     i=i+1
-# print("Strings with more than five characters:", new_list)
-
-
-#ques
-
-
-# list = input("Enter a list of integers separated by spaces: ").split()
-# even_list=[]
 # i=0
-
-# while i < len(list):
-#     num = int(list[i])
-#     if num % 2 == 0:
-#         even_list.append(num)
+# l=["jan","feb","march"]
+# while i< len(l):
+#     print(l[i],len(l[i]))
 #     i=i+1
-# print("Even integers in the list:", even_list)
+
+
+# s={}
+# num=input("enter a string:")
+# i=0
+# while i<len(num):
+#     if num[i] in s:
+#        s[num[i]]+=1
+#     else:
+#        s[num[i]]=1
+#     i=i+1
+# print(s)
+
+
+# l1=[1,2,3,4,5]
+# l2=[3,4,5,6,7]
+# l3=[]
+# i=0
+# while i<len(l1):
+#     if l1[i] in l2:
+#         l3.append(l1[i])
+#     i=i+1
+# print(l3)
+
+
+# r=""
+# num=input("enter a string:")
+# i=len(num)-1
+# while i>=0:
+#     r+=num[i]
+#     i=i-1
+# print(r)
+
+
+
+# sum=0
+# list=[]
+# num=int(input("enter no of elements"))
+# i=1
+# while i<=num:
+#     p=int(input("enter the no.:"))
+#     list.append(p)
+#     print(list)
+#     sum+=p
+#     i=i+1
+# print(list,sum)
+
+
+# num=[10,5,20]
+# largest=0
+# i=0
+# while i< len(num):
+#     if num[i]>largest:
+#         largest=num[i]
+#     i=i+1
+# print(largest)
+
+
+# str=input("enter a string:")
+# count=1
+# i=0
+# while (i<len(str)):
+#     if (str[i]==''):
+#         pass
+#     else:
+#         count+=1
+#     i=i+1
+# print(count)
+
+
+# str=input("enter a string:")
+# count=1
+# i=0
+# while (i<len(str)):
+#     if str[i].isalpha():
+#         pass
+#     else:
+#         count+=1
+#     i=i+1
+# print(count)
+
+
+
+# str=["apple","pineapple","cherry"]
+# s=[]
+# i=0
+# while i<len(str):
+#     if len(str[i])>5:
+#         s.append(str[i])
+#     i=i+1
+# print(s)
+
+
+
+
+
+    
+
+
+
 
 
